@@ -16,7 +16,7 @@ public class Program {
 		Account acc = new Account(number, holder, balance, withDrawLimit);
 		
 		System.out.println(acc);
-		while (acc.getBalance()>0) {
+		while (acc.getBalance()>0) { //nao faz parte do projeto mas adicionei para poder fazer varias operações na conta
 			System.out.print("Enter amout for withdraw: ");
 			try {
 				acc.withDraw(sc.nextDouble());
